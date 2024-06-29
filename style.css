@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+}
+
+.openmodal {
+  padding: 1.5rem 1.9rem;
+  margin: 1.7rem 1.5rem;
+  border: none;
+  background-color: #4767;
+  color: ;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.hidden {
+  display: none;
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  width: 50%;
+  padding: 4rem;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 2rem 3rem 5rem rgba(33, 22, 196, 0.3);
+  z-index: 10;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(3px);
+}
+h1{
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+p{
+    font-size: 1.8rem;
+}
+.closemodal{
+    position: absolute;
+    top:1.2rem;
+    right:2rem;
+    font-size: 1.8rem;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
